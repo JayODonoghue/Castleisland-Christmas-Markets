@@ -9,7 +9,24 @@
 body {
     font-family: 'Lora', serif;
     font-weight: 300;
+    color: black;
 }
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul li {
+    padding-right: 30px;
+}
+
+/* Logo Styling */
 
 #logo {
     height: 200px;
