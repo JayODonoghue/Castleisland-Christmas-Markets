@@ -10,3 +10,7 @@ body {
     font-family: 'Lora', serif;
     font-weight: 300;
 }
+
+#logo {
+    height: 200px;
+}
