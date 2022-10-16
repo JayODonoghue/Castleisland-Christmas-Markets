@@ -1,4 +1,8 @@
+/* Imported Google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&display=swap');
+
+/* Remove default styling */
 
 * {
     margin: 0;
@@ -65,6 +69,8 @@ header {
     border-bottom: 1px solid #E11C21;
 }
 
+/* Index page main image styling */
+
 #index-main-image {
     width: 120%;
     height: 600px;
@@ -76,6 +82,8 @@ header {
     overflow: hidden;
     position: relative;
 }
+
+/* Image slogan styling */
 
 #image-slogan {
     text-transform: uppercase;
@@ -91,4 +99,32 @@ header {
     left: 30px;
     position: absolute;
     border: 1px solid #FFFAFA;
+}
+
+/* Information plus pathway section styling */
+
+#info-plus-pathway-section {
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFAFA;
+}
+
+#info-div {
+    width: 25%;
+    height: 75%;
+    background-color: rgba(27, 97, 43, 0.8)
+}
+
+#festivities-div {
+    width: 25%;
+    height: 75%;
+    background-color: rgba(27, 97, 43, 0.8)
+}
+
+#competition-div {
+    width: 25%;
+    height: 75%;
+    background-color: rgba(162, 73, 54, 0.8)
 }
