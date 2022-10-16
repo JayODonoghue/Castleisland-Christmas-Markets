@@ -64,3 +64,9 @@ header {
 .active {
     border-bottom: 1px solid #E11C21;
 }
+
+#index-main-image {
+    width: 120%;
+    height: 600px;
+    background: url('../images/christmas-market-sparkle-deco.jpg') no-repeat center center;
+}
