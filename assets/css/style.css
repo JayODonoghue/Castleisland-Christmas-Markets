@@ -195,3 +195,18 @@ h3 i {
     text-align: center;
 }
 
+#find-us {
+    margin-left: 30px;
+    color: #1B612B;
+    background-color: #FFFAFA;
+    padding-bottom: 3px;
+    padding-left: 30px;
+    border: 1px solid #1B612B;
+    width: 10%;
+}
+
+#pin {
+    margin-left: 10px;
+    letter-spacing: 4px;
+}
+
