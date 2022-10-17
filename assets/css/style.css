@@ -101,7 +101,7 @@ header {
     border: 1px solid #FFFAFA;
 }
 
-/* Information plus pathway section styling */
+/* Information plus pathway div styling */
 
 #info-plus-pathway-section {
     height: 600px;
@@ -111,14 +111,42 @@ header {
     background-color: #FFFAFA;
 }
 
+/* Info div styling */
+
 #info-div {
     width: 25%;
     height: 75%;
     background-color: #FFFAFA;
 }
 
+.info-div-headings {
+    color: #E11C21;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 1.5rem;
+}
+
+h3 i {
+    padding-right: 10px;
+    color: #1B612B;
+}
+
+#info-div h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1B612B;
+    letter-spacing: 4px;
+}
+
+#info-div p {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+/* Festivities and Competition divs */
+
 #festivities-div {
-    background: url('../images/carousel-image.jpg') no-repeat center center;
+    background: url('../images/castleisland-christmas-lights-and-tree-image.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -140,40 +168,30 @@ header {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 6%;
     
 }
 
-.info-div-headings {
-    color: #E11C21;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    padding-bottom: 1.5rem;
-}
-
-h3 i {
-    padding-right: 20px;
-    color: #1B612B;
-}
-
-#info-div h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #1B612B;
-}
-
-#info-div p {
-    font-family: 'Montserrat', sans-serif;
-    color: black;
+#div1 {
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .pathway-header {
     color: #FFFAFA;
     padding-top: 55px;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: underline;
+    text-decoration: underline overline;
+    text-align: center;
+    font-weight: 200;
+}
 
+.pathway-paragraph {
+    color: #FFFAFA;
+    padding-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 
