@@ -205,6 +205,10 @@ h3 i {
     width: 10%;
 }
 
+#map-section {
+    background-color: #FFFAFA;
+}
+
 #pin {
     margin-left: 10px;
     letter-spacing: 4px;
