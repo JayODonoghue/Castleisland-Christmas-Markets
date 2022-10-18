@@ -173,7 +173,7 @@ h3 i {
     
 }
 
-#div1 {
+#colour-contrast-div {
     background-color: rgba(0, 0, 0, 0.75);
 }
 
@@ -195,6 +195,8 @@ h3 i {
     text-align: center;
 }
 
+/* Map section styling */
+
 #find-us {
     margin-left: 30px;
     color: #1B612B;
@@ -214,3 +216,54 @@ h3 i {
     letter-spacing: 4px;
 }
 
+/* Footer styling */
+
+footer {
+    height: 100px;
+    background-color: #1B612B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#social-media {
+    list-style: none;
+}
+
+#social-media > li {
+    display: inline-block;
+}
+
+#social-div-container {
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.footer-text {
+    color: #FFFAFA;
+}
+
+
+
+#contact-info > p {
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#contact-info > h4 {
+    text-align: center;
+    text-decoration: underline overline;
+}
+
+#email {
+    color: #E11C21;
+}
+
+#copyright-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 25%;
+}
