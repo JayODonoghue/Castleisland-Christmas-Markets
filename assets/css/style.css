@@ -235,6 +235,18 @@ footer {
     align-items: center;
 }
 
+.footer-text {
+    color: #FFFAFA;
+}
+
+#social-div-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+    padding-right: 30px;
+}
+
 #social-media {
     list-style: none;
 }
@@ -257,33 +269,29 @@ footer {
     font-size: 155%;
 }
 
-#social-div-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 30%;
-    padding-right: 30px;
+#follow-us {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.footer-text {
-    color: #FFFAFA;
-}
-
-#contact-info {
+#contact-info-container {
     width: 40%;
     text-align: center;
 }
 
-#contact-info > p {
+#contact-info-container > p {
     display: inline-block;
     padding-right: 20px;
     padding-top: 5px;
     text-align: center;
 }
 
-#contact-info > h4 {
+#contact-info-container > h4 {
     text-align: center;
     text-decoration: underline overline;
+}
+
+.contact-info {
+    font-family: 'Montserrat', sans-serif;
 }
 
 #copyright-container {
