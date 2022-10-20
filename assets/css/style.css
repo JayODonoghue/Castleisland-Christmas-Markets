@@ -205,6 +205,27 @@ h3 i {
     text-align: center;
 }
 
+.button {
+    margin-right: 0;
+    height: 40px;
+    width: 15rem;
+    text-align: center;
+    background-color: #a24936;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    border-top: 1px solid #FFFAFA;
+    border-bottom: 1px solid #FFFAFA;
+    border-left: 1px solid #FFFAFA;
+    cursor: pointer;
+}
+
+.button a {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
 /* Map section styling */
 
 #find-us {
