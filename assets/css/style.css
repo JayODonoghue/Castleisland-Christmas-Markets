@@ -150,6 +150,7 @@ h3 i {
 #info-div p {
     font-family: 'Montserrat', sans-serif;
     color: black;
+    text-align: justify;
 }
 
 /* Festivities and Competition divs */
