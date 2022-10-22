@@ -260,7 +260,7 @@ footer {
     height: 100px;
     background-color: #1B612B;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -272,7 +272,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    width: 30%;
+    width: 25%;
     padding-right: 30px;
 }
 
@@ -304,14 +304,15 @@ footer {
 
 #contact-info-container {
     width: 40%;
-    text-align: center;
+    margin: 0 auto;
+    
 }
 
 #contact-info-container > p {
     display: inline-block;
     padding-right: 20px;
     padding-top: 5px;
-    text-align: center;
+    
 }
 
 #contact-info-container > h4 {
@@ -323,7 +324,34 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
+.contact-details {
+    text-align: left;
+}
+
+#address-details {
+    text-align: end;
+}
+
 #copyright-container {
-    width: 30%;
+    width: 25%;
     padding-left: 30px;
+}
+
+/* Media Queries */
+
+/* For larger screens from 1660px wide and down */
+@media screen and (max-width: 1660px) {
+    #info-plus-pathway-section {
+        height: 700px;
+    }
+    footer {
+        height: 150px;
+    }
+}
+
+/* For large screens from 1420px wide and down */
+@media screen and (max-width: 1420px) {
+    #info-plus-pathway-section {
+        height: 850px;
+    }
 }
