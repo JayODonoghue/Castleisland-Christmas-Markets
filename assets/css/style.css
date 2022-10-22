@@ -147,10 +147,17 @@ h3 i {
     padding-bottom: 1.5rem;
 }
 
-#info-div p {
+.info-p {
     font-family: 'Montserrat', sans-serif;
     color: black;
     text-align: justify;
+    padding-bottom: 15px;
+}
+
+#come-and-see-p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 /* Festivities and Competition divs */
@@ -209,6 +216,7 @@ h3 i {
     margin-right: 0;
     height: 40px;
     width: 15rem;
+    letter-spacing: 3px;
     text-align: center;
     background-color: #a24936;
     position: absolute;
@@ -217,7 +225,6 @@ h3 i {
     border-top: 1px solid #FFFAFA;
     border-bottom: 1px solid #FFFAFA;
     border-left: 1px solid #FFFAFA;
-    cursor: pointer;
 }
 
 .button a {
