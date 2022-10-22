@@ -240,9 +240,10 @@ h3 i {
     color: #1B612B;
     background-color: #FFFAFA;
     padding-bottom: 3px;
-    padding-left: 30px;
+    letter-spacing: 3px;
     border: 1px solid #1B612B;
-    width: 10%;
+    width: 225px;
+    text-align: center;
 }
 
 #map-section {
@@ -251,7 +252,6 @@ h3 i {
 
 #pin {
     margin-left: 10px;
-    letter-spacing: 4px;
 }
 
 /* Footer styling */
