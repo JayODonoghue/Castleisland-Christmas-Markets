@@ -359,4 +359,18 @@ footer {
     #info-plus-pathway-section {
         height: 850px;
     }
+    #info-div > h1 {
+        text-align: center;
+    }
+    #dates {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        margin-left: 15%;
+    }
+}
+
+/* For large to medium screens from 1150px wide and down */
+@media screen and (max-width: 1150px) {
+
 }
