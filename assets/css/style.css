@@ -372,5 +372,63 @@ footer {
 
 /* For large to medium screens from 1150px wide and down */
 @media screen and (max-width: 1150px) {
-
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header a {
+        height: 200px;
+        margin: 0 auto;
+    }
+    #logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav {
+        width: 100%;
+        background-color: #1B612B;
+        height: 45px;
+    }
+    #menu {
+        display: flex;
+        justify-content: center;
+        height: 45px;
+        align-items: center;
+    }
+    #menu li {
+        text-align: center;
+        width: 30%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #menu a {
+        color: #FFFAFA;
+        text-align: center;
+        width: 100%;
+    }
+    #info-plus-pathway-section {
+    display: flex;
+    flex-direction: column;
+    height: 1400px;
+    }
+    #info-div, #festivities-div, #competition-div {
+    width: 75%;
+    margin-top: 30px;
+    }
+    #info-div {
+    height: 400px;
+    }
+    #festivities-div, #competition-div {
+        height: 400px;
+    }
+    #find-us {
+        margin: 0 auto;
+    }
+    #social-media {
+        display: flex;
+        flex-direction: column;
+    }
 }
