@@ -431,4 +431,32 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    #contact-info-details {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #address-details {
+        text-align: left;
+    }
+}
+
+/* For large to medium screens from 900px wide and down */
+@media screen and (max-width: 900px) {
+    .footer-text {
+        font-size: 85%;
+    }
+    #info-plus-pathway-section {
+        height: 1500px;
+    }
+    #festivities-div, #competition-div {
+        height: 450px;
+    }
+}
+
+/* For large to medium screens from 700px wide and down */
+@media screen and (max-width: 700px) {
+    #menu a {
+        font-size: 80%;
+    }
 }
