@@ -409,6 +409,13 @@ footer {
         text-align: center;
         width: 100%;
     }
+    #menu a:hover {
+        border-bottom: 3px solid #E11C21;
+    }
+    
+    .active {
+        border-bottom: 3px solid #E11C21;
+    }
     #info-plus-pathway-section {
     display: flex;
     flex-direction: column;
