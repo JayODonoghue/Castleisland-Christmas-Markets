@@ -344,7 +344,7 @@ footer {
 
 /* Media Queries */
 
-/* For larger screens from 1660px wide and down */
+/* For xx-large screens from 1660px wide and down */
 @media screen and (max-width: 1660px) {
     #info-plus-pathway-section {
         height: 700px;
@@ -354,7 +354,7 @@ footer {
     }
 }
 
-/* For large screens from 1420px wide and down */
+/* For x-large screens from 1420px wide and down */
 @media screen and (max-width: 1420px) {
     #info-plus-pathway-section {
         height: 850px;
@@ -370,7 +370,7 @@ footer {
     }
 }
 
-/* For large to medium screens from 1150px wide and down */
+/* For large screens from 1150px wide and down */
 @media screen and (max-width: 1150px) {
     header {
         display: flex;
@@ -448,7 +448,7 @@ footer {
     }
 }
 
-/* For medium screens from 900px wide and down */
+/* For large to medium screens from 900px wide and down */
 @media screen and (max-width: 900px) {
     .footer-text {
         font-size: 85%;
