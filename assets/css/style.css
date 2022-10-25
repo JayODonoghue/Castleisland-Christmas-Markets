@@ -292,6 +292,10 @@ footer {
     color: #FFFAFA; 
 }
 
+#contact-info-header > h4 {
+    padding-bottom: 0.5em;
+}
+
 #contact-info-details {
    display: inline-flex;
     justify-content: space-between;
@@ -434,9 +438,26 @@ footer {
     #find-us {
         margin: 0 auto;
     }
+    #social-div-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 25%;
+        padding-right: 0;
+    }
+    #follow-us {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 0.5em;
+    }
     #social-media {
         display: flex;
-        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    #social-media > li {
+        padding-left: 0;
     }
     #contact-info-details {
         display: flex;
