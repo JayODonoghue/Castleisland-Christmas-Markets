@@ -240,6 +240,7 @@ h3 i {
     color: #1B612B;
     background-color: #FFFAFA;
     padding-bottom: 3px;
+    padding-left: 5px;
     letter-spacing: 3px;
     border: 1px solid #1B612B;
     width: 225px;
@@ -252,6 +253,14 @@ h3 i {
 
 #pin {
     margin-left: 10px;
+}
+
+#map {
+    margin-top: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-sizing: border-box;
+    border: 3px solid grey;
 }
 
 /* General Footer styling */
