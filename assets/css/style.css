@@ -69,6 +69,19 @@ header {
     border-bottom: 1px solid #E11C21;
 }
 
+.hamburger {
+    background-color: transparent;
+    border: 0;
+    color: #FFFAFA;
+    font-size: 200%;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
 /* Index page main image styling */
 
 #index-main-image {
@@ -510,5 +523,25 @@ footer {
     #dates {
         font-size: 100%;
         letter-spacing: 3px;
+    }
+}
+
+/* For medium screens from 600px wide and down */
+@media screen and (max-width: 600px) {
+    #nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #menu {
+        display: none;
+        width: 100%;
+        
+    }
+    #menu.show {
+        display: flex;
+    }
+    .hamburger {
+        display: inline-block;
+
     }
 }
