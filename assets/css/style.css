@@ -37,7 +37,7 @@ body {
 
 /* Navigation styling */
 
-#menu {
+.menu {
     display: flex;
     justify-content: space-around;
     font-size: 150%;
@@ -45,23 +45,23 @@ body {
     
 }
 
-#menu li {
+.menu li {
     padding-right: 20px;
     margin-left: 15px;
     list-style-type: none;
     text-transform: uppercase;
 }
 
-#menu .border-right {
+.menu .border-right {
     border-right: 2px solid #1B612B;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: #E11C21;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #E11C21;
 }
 
@@ -73,12 +73,12 @@ body {
     position: absolute;
     display: none;
     cursor: pointer;
-    top: .75rem;
+    top: 50;
     right: 1rem;
     flex-direction: column;
     justify-content: space-between;
-    width: 30px;
-    height: 21px;
+    width: 14%;
+    height: 50px;
 }
 
 .toggle-button:focus {
@@ -86,7 +86,7 @@ body {
 }
 
 .toggle-button .bar {
-    height: 3px;
+    height: 8px;
     width: 100%;
     border-radius: 10px;
     background-color: #1B612B;
@@ -424,7 +424,7 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
-    #menu {
+    .menu {
         display: flex;
         justify-content: center;
         height: 45px;
@@ -432,18 +432,18 @@ footer {
         background-color: #1B612B;
         width: 100%;
     }
-    #menu li {
+    .menu li {
         text-align: center;
         width: 30%;
         margin: 0 auto;
         padding: 0;
     }
-    #menu a {
+    .menu a {
         color: #FFFAFA;
         text-align: center;
         width: 100%;
     }
-    #menu a:hover {
+    .menu a:hover {
         border-bottom: 3px solid #E11C21;
     }
     
@@ -514,7 +514,7 @@ footer {
 
 /* For medium screens from 700px wide and down */
 @media screen and (max-width: 700px) {
-    #menu a {
+    .menu a {
         font-size: 80%;
     }
     #index-main-image {
@@ -539,17 +539,33 @@ footer {
    .toggle-button {
         display: flex;
    }
-   #menu {
+   .menu {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    /* display: none; */
+    display: none;
    }
    .navbar {
     flex-direction: column;
     align-items: flex-start;
+    height: 140px;
    }
-   #menu li {
+   .menu li {
      width: 100%
    }
+   .menu a {
+    width: 100%;
+    padding: 0.5rem 1rem
+  }
+  .menu.active {
+    display: flex;
+  }
+
+  .navbar .logo {
+    height: 135px;
+    margin: 0;
+  }
+    #logo {
+    height: 135px;
+  }
 }

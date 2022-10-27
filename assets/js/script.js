@@ -1,6 +1,6 @@
-const hamburger = document.getElementById('hamburger');
-const menu = document.getElementById('menu');
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const menu = document.getElementsByClassName('menu')[0]
 
-hamburger.addEventListener('click', () => {
-    menu.classList.toggle('show');
-});
+toggleButton.addEventListener('click', () => {
+    menu.classList.toggle('active')
+})
