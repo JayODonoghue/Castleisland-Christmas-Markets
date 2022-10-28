@@ -254,6 +254,11 @@ h3 i {
     font-family: 'Montserrat', sans-serif;
     color: #FFFAFA;
     text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Map section styling */
