@@ -502,10 +502,32 @@ footer {
     #address-details {
         text-align: left;
     }
+    #index-main-image {
+        width: 100%;
+        height: 450px;
+    }
+    #image-slogan {
+        font-size: 95%;
+        width: 190px;
+        height: 85px;
+        padding: 5px;
+        border: 2px solid #FFFAFA;
+    }
 }
 
 /* For large to medium screens from 900px wide and down */
 @media screen and (max-width: 900px) {
+    #index-main-image {
+        width: 100%;
+        height: 400px;
+    }
+    #image-slogan {
+        font-size: 90%;
+        width: 180px;
+        height: 80px;
+        padding: 5px;
+        border: 2px solid #FFFAFA;
+    }
     .footer-text {
         font-size: 85%;
     }
@@ -524,11 +546,11 @@ footer {
     }
     #index-main-image {
         width: 100%;
-        height: 400px;
+        height: 350px;
     }
     #image-slogan {
         font-size: 90%;
-        width: 190px;
+        width: 180px;
         height: 80px;
         padding: 5px;
         border: 2px solid #FFFAFA;
@@ -541,7 +563,21 @@ footer {
 
 /* For medium screens from 600px wide and down */
 @media screen and (max-width: 600px) {
-   .toggle-button {
+    body {
+        font-size: 90%;
+    }
+    #index-main-image {
+        width: 100%;
+        height: 300px;
+    }
+    #image-slogan {
+        font-size: 90%;
+        width: 175px;
+        height: 70px;
+        padding: 5px;
+        border: 2px solid #FFFAFA;
+    }
+    .toggle-button {
         display: flex;
    }
    .menu {
@@ -570,11 +606,11 @@ footer {
   }
 
   .navbar .logo {
-    height: 135px;
+    height: 100px;
     margin: 0;
   }
     #logo {
-    height: 135px;
+    height: 100px;
   }
   .menu a.active {
     border-bottom: none;
