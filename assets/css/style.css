@@ -579,51 +579,116 @@ footer {
     }
     .toggle-button {
         display: flex;
-   }
+    }
    .menu {
     flex-direction: column;
     width: 100%;
     height: 100%;
     display: none;
-    
     background-color: #FFFAFA;
-   }
+    }
    .navbar {
     flex-direction: column;
     align-items: flex-start;
-   }
+    }
    .menu li {
      width: 100%;
      margin-bottom: 5px
-   }
+    }
    .menu a {
     width: 100%;
     padding: 0;
     color: #1B612B;
-  }
-  .menu.active {
+    }
+    .menu.active {
     display: flex;
-  }
+    }
 
-  .navbar .logo {
+    .navbar .logo {
     height: 100px;
     margin: 0;
-  }
+    }
     #logo {
     height: 100px;
-  }
-  .menu a.active {
+    }
+    .menu a.active {
     border-bottom: none;
-}
-.menu li:hover {
+    }
+    .menu li:hover {
     background-color: #1B612B;
-    
-}
-.menu a:hover {
+    }
+    .menu a:hover {
     border-bottom: none;
     color: #FFFAFA;
-}
-.menu li a {
+    }
+    .menu li a {
     display: block;
+    }
 }
+
+/* For smaller screens from 525px wide and down */
+@media screen and (max-width: 525px) {
+    footer {
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #contact-info-container {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding-left: 2%;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    #contact-info-header {
+        display: flex;
+        text-align: start;
+        padding-top: 10px;
+        width: 100%;
+    }
+    #contact-info-details {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    #address-details {
+        text-align: left;
+    }
+    #copyright-container {
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 20px;
+        text-align: start;
+        box-sizing: border-box;
+        order: 2;
+    }
+    #copyright-container br {
+        display: none;
+    }
+    #social-div-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 2%;
+        order: 3;
+        box-sizing: border-box;
+    }
+    #social-media {
+        display: flex;
+        justify-content: space-evenly;
+        width: 40%;
+        padding-bottom: 0.5em;
+    }
+    #follow-us{
+    display: flex;
+    justify-content: flex-start;
+    width: 30%;
+    }
 }
