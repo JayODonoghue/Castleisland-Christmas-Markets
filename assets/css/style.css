@@ -73,12 +73,12 @@ body {
     position: absolute;
     display: none;
     cursor: pointer;
-    top: 42.5px;
+    top: 32.5px;
     right: 1rem;
     flex-direction: column;
     justify-content: space-between;
-    width: 14%;
-    height: 50px;
+    width: 10%;
+    height: 35px;
 }
 
 .toggle-button:focus {
@@ -86,7 +86,7 @@ body {
 }
 
 .toggle-button .bar {
-    height: 8px;
+    height: 6px;
     width: 100%;
     border-radius: 10px;
     background-color: #1B612B;
