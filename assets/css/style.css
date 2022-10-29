@@ -693,5 +693,50 @@ footer {
     }
     #info-div, #festivities-div, #competition-div {
         width: 96%;
+        margin-top: 20px;
     }
 }
+
+/* For smaller screens from 410px wide and down */
+@media screen and (max-width: 410px) {
+    #index-main-image {
+        width: 100%;
+        height: 250px;
+    }
+    #image-slogan {
+        font-size: 70%;
+        width: 145px;
+        height: 55px;
+        padding: 5px;
+        border: 2px solid #FFFAFA;
+    }
+    .navbar .logo {
+        height: 85px;
+    }
+    #logo {
+        height: 85px;
+        width: 90%;
+        margin-left: 0;
+        }
+        .toggle-button {
+            top: 25px;
+            height: 30px;
+        }
+        .menu li a {
+            font-size: 70%;
+        }
+        #info-plus-pathway-section {
+            height: 1700px;
+        }
+        #info-div {
+            height: 450px;
+            }
+        #dates {
+            width: 100%;
+            margin-left: 0;  
+        }
+        #festivities-div, #competition-div {
+            height: 520px;
+        }
+}
+
