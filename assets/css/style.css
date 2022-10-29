@@ -691,4 +691,7 @@ footer {
     justify-content: flex-start;
     width: 30%;
     }
+    #info-div, #festivities-div, #competition-div {
+        width: 96%;
+    }
 }
