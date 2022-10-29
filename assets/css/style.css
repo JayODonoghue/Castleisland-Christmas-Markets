@@ -459,6 +459,7 @@ footer {
     display: flex;
     flex-direction: column;
     height: 1400px;
+    justify-content: space-between;
     }
     #info-div, #festivities-div, #competition-div {
     width: 75%;
@@ -469,6 +470,9 @@ footer {
     }
     #festivities-div, #competition-div {
         height: 400px;
+    }
+    #competition-div {
+        margin-bottom: 30px;
     }
     #find-us {
         margin: 0 auto;
@@ -726,7 +730,7 @@ footer {
             font-size: 70%;
         }
         #info-plus-pathway-section {
-            height: 1700px;
+            height: 1650px;
         }
         #info-div {
             height: 450px;
@@ -740,3 +744,19 @@ footer {
         }
 }
 
+/* For smaller screens from 350px wide and down */
+@media screen and (max-width: 350px) {
+    #info-div {
+        height: 500px;
+    }
+    .pathway-paragraph {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #festivities-div, #competition-div {
+        height: 540px;
+    }
+    #info-plus-pathway-section {
+        height: 1680px;
+    }
+}
