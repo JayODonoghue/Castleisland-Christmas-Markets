@@ -630,7 +630,7 @@ footer {
     }
 }
 
-/* For smaller screens from 525px wide and down */
+/* For small screens from 525px wide and down */
 @media screen and (max-width: 525px) {
     footer {
         height: 180px;
@@ -701,7 +701,7 @@ footer {
     }
 }
 
-/* For smaller screens from 410px wide and down */
+/* For x-small screens from 410px wide and down */
 @media screen and (max-width: 410px) {
     #index-main-image {
         width: 100%;
@@ -744,7 +744,7 @@ footer {
         }
 }
 
-/* For smaller screens from 350px wide and down */
+/* For xx-small screens from 350px wide and down */
 @media screen and (max-width: 350px) {
     #info-div {
         height: 500px;
