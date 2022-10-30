@@ -407,8 +407,24 @@ footer {
     border-radius: 10px;
 }
 
+.grid-images {
+    background-color: #a24936;
+}
+
 #item-two {
-    background: url('../images/holiday-christmas-christmas-decoration-xmas-santa-claus-merry-520428-pxhere.com.jpg') no-repeat center center;
+    background: url('../images/santa-image.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#item-six {
+    background: url('../images/decorations-image.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#item-seven {
+    background: url('../images/amusement-park-bazaar-colorful-christmas-fairground-christmas-decoration-560579-pxhere.com.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
 }
