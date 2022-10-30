@@ -97,7 +97,7 @@ body {
 #index-main-image {
     width: 120%;
     height: 600px;
-    background: url('../images/christmas-market-sparkle-deco\ .jpg') no-repeat center center;
+    background: url('../images/hero-image.jpg') no-repeat center center;
     
 }
 
@@ -407,11 +407,13 @@ footer {
     #info-div > h1 {
         text-align: center;
     }
-    #dates {
-        width: 70%;
-        display: flex;
-        align-items: center;
-        margin-left: 15%;
+    #dates {   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    font-size: 100%;
     }
 }
 
