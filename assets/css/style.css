@@ -417,14 +417,28 @@ footer {
     position: relative;
 }
 
+#item-three {
+    background: url('../images/vecteezy_bologna-italy-2018-people-shopping-in-french-christmas__847.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
 #item-six {
     background: url('../images/decorations-image.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
 }
 
+
+
 #item-seven {
     background: url('../images/amusement-park-bazaar-colorful-christmas-fairground-christmas-decoration-560579-pxhere.com.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+#item-ten {
+    background: url('../images/cookie-decoration-image.jpg') no-repeat center center;
     background-size: cover;
     position: relative;
 }
