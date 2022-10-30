@@ -387,6 +387,32 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Festivities page styling */
+
+/* CSS grid styling */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 350px);
+    grid-gap: 10px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFFAFA;
+}
+
+.grid {
+    border: 2px solid #E11C21;
+    border-radius: 10px;
+}
+
+#item-two {
+    background: url('../images/holiday-christmas-christmas-decoration-xmas-santa-claus-merry-520428-pxhere.com.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
 /* Media Queries */
 
 /* For xx-large screens from 1660px wide and down */
