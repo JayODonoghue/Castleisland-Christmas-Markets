@@ -411,6 +411,30 @@ footer {
     background-color: #a24936;
 }
 
+.grid-text {
+    color: black;
+}
+
+.grid-text-header {
+    padding-top: 25px;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+    text-align: center;
+    font-size: 150%;
+    color: #1B612B;
+}
+
+.grid-text-paragraphs {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+}
+
 #item-two {
     background: url('../images/santa-image.jpg') no-repeat center center;
     background-size: cover;
