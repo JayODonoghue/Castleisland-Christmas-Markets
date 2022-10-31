@@ -372,6 +372,11 @@ footer {
     font-size: 150%;
 }
 
+#social-media a {
+    text-decoration: none;
+    color: #FFFAFA;
+}
+
 #social-media a:visited {
     text-decoration: none;
     color: #FFFAFA;
@@ -416,7 +421,7 @@ footer {
 }
 
 .grid-text-header {
-    padding-top: 25px;
+    padding-top: 35px;
     text-transform: uppercase;
     text-decoration: underline overline;
     text-align: center;
