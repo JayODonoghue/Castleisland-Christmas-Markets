@@ -486,6 +486,9 @@ footer {
 
 /* For x-large screens from 1420px wide and down */
 @media screen and (max-width: 1420px) {
+   
+    /* Index page media queries */
+
     #info-plus-pathway-section {
         height: 850px;
     }
@@ -493,17 +496,34 @@ footer {
         text-align: center;
     }
     #dates {   
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 3px;
-    font-size: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 3px;
+        font-size: 100%;
     }
+
+    /* Festivities page media queries */
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 400px);
+        grid-gap: 10px;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #FFFAFA;
+    }
+
 }
 
 /* For large screens from 1150px wide and down */
 @media screen and (max-width: 1150px) {
+   
+    /* Index page media queries */
+
     .navbar {
         display: flex;
         flex-direction: column;
@@ -547,17 +567,17 @@ footer {
         border-bottom: 3px solid #E11C21;
     }
     #info-plus-pathway-section {
-    display: flex;
-    flex-direction: column;
-    height: 1400px;
-    justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+        height: 1400px;
+        justify-content: space-between;
     }
     #info-div, #festivities-div, #competition-div {
-    width: 75%;
-    margin-top: 30px;
+        width: 75%;
+        margin-top: 30px;
     }
     #info-div {
-    height: 400px;
+        height: 400px;
     }
     #festivities-div, #competition-div {
         height: 400px;
@@ -604,10 +624,28 @@ footer {
         padding: 5px;
         border: 2px solid #FFFAFA;
     }
+
+    
+    /* Festivities page media queries */
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 470px);
+        grid-gap: 10px;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #FFFAFA;
+    }
+
 }
 
 /* For large to medium screens from 900px wide and down */
 @media screen and (max-width: 900px) {
+    
+    /* Index page media queries */
+
     #image-slogan {
         font-size: 90%;
         width: 180px;
@@ -624,10 +662,27 @@ footer {
     #festivities-div, #competition-div {
         height: 450px;
     }
+    
+    /* Festivities page media queries */
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 545px);
+        grid-gap: 10px;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #FFFAFA;
+    }
+
 }
 
 /* For medium screens from 700px wide and down */
 @media screen and (max-width: 700px) {
+    
+    /* Index page media queries */
+    
     .menu a {
         font-size: 80%;
     }
@@ -641,6 +696,29 @@ footer {
     #dates {
         font-size: 100%;
         letter-spacing: 3px;
+    }
+
+    /* Festivities page media queries */
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(10, 375px);
+        grid-gap: 10px;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #FFFAFA;
+    }
+
+    .grid-text-header {
+        padding-top: 20px;
+        font-size: 130%;
+    }
+    
+    .grid-text-paragraphs {
+        padding-top: 12px;
+        width: 94%;
     }
 }
 
@@ -660,48 +738,48 @@ footer {
         display: flex;
     }
    .menu {
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    display: none;
-    background-color: #FFFAFA;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        display: none;
+        background-color: #FFFAFA;
     }
    .navbar {
-    flex-direction: column;
-    align-items: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
     }
    .menu li {
-     width: 100%;
-     margin-bottom: 5px
+        width: 100%;
+        margin-bottom: 5px
     }
    .menu a {
-    width: 100%;
-    padding: 0;
-    color: #1B612B;
+        width: 100%;
+        padding: 0;
+        color: #1B612B;
     }
     .menu.active {
-    display: flex;
+        display: flex;
     }
 
     .navbar .logo {
-    height: 100px;
-    margin: 0;
+        height: 100px;
+        margin: 0;
     }
     #logo {
-    height: 100px;
+        height: 100px;
     }
     .menu a.active {
-    border-bottom: none;
+        border-bottom: none;
     }
     .menu li:hover {
-    background-color: #1B612B;
+        background-color: #1B612B;
     }
     .menu a:hover {
-    border-bottom: none;
-    color: #FFFAFA;
+        border-bottom: none;
+        color: #FFFAFA;
     }
     .menu li a {
-    display: block;
+        display: block;
     }
 }
 
@@ -766,9 +844,9 @@ footer {
         padding-bottom: 0.5em;
     }
     #follow-us{
-    display: flex;
-    justify-content: flex-start;
-    width: 30%;
+        display: flex;
+        justify-content: flex-start;
+        width: 30%;
     }
     #info-div, #festivities-div, #competition-div {
         width: 96%;
@@ -792,27 +870,27 @@ footer {
         height: 85px;
         width: 90%;
         margin-left: 0;
-        }
-        .toggle-button {
-            top: 25px;
-            height: 30px;
-        }
-        .menu li a {
-            font-size: 70%;
-        }
-        #info-plus-pathway-section {
-            height: 1650px;
-        }
-        #info-div {
-            height: 450px;
-            }
-        #dates {
-            width: 100%;
-            margin-left: 0;  
-        }
-        #festivities-div, #competition-div {
-            height: 520px;
-        }
+    }
+    .toggle-button {
+        top: 25px;
+        height: 30px;
+    }
+    .menu li a {
+        font-size: 70%;
+    }
+    #info-plus-pathway-section {
+        height: 1650px;
+    }
+    #info-div {
+        height: 450px;
+    }
+    #dates {
+        width: 100%;
+        margin-left: 0;  
+    }
+    #festivities-div, #competition-div {
+        height: 520px;
+    }
 }
 
 /* For xx-small screens from 350px wide and down */
