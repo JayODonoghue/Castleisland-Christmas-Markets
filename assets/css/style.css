@@ -314,7 +314,7 @@ footer {
 
 #copyright-container {
     width: 25%;
-    padding-left: 30px;
+    padding-left: 15px;
 }
 
 /* Contact Info div */
@@ -422,6 +422,8 @@ footer {
 
 .grid-text-header {
     padding-top: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-transform: uppercase;
     text-decoration: underline overline;
     text-align: center;
@@ -458,8 +460,6 @@ footer {
     position: relative;
 }
 
-
-
 #item-seven {
     background: url('../images/amusement-park-bazaar-colorful-christmas-fairground-christmas-decoration-560579-pxhere.com.jpg') no-repeat center center;
     background-size: cover;
@@ -476,9 +476,11 @@ footer {
 
 /* For xx-large screens from 1660px wide and down */
 @media screen and (max-width: 1660px) {
+   
     #info-plus-pathway-section {
         height: 700px;
     }
+
     footer {
         height: 150px;
     }
@@ -492,9 +494,11 @@ footer {
     #info-plus-pathway-section {
         height: 850px;
     }
+
     #info-div > h1 {
         text-align: center;
     }
+
     #dates {   
         width: 100%;
         display: flex;
@@ -531,15 +535,18 @@ footer {
         align-items: center;
         width: 100%;
     }
+
     .navbar .logo {
         height: 200px;
         margin: 0 auto; 
     } 
+
     #logo {
         display: block;
         margin-left: auto;
         margin-right: auto;
     }
+
     .menu {
         display: flex;
         justify-content: center;
@@ -548,17 +555,20 @@ footer {
         background-color: #1B612B;
         width: 100%;
     }
+
     .menu li {
         text-align: center;
         width: 30%;
         margin: 0 auto;
         padding: 0;
     }
+
     .menu a {
         color: #FFFAFA;
         text-align: center;
         width: 100%;
     }
+
     .menu a:hover {
         border-bottom: 3px solid #E11C21;
     }
@@ -566,57 +576,70 @@ footer {
     .menu a.active {
         border-bottom: 3px solid #E11C21;
     }
+
     #info-plus-pathway-section {
         display: flex;
         flex-direction: column;
         height: 1400px;
         justify-content: space-between;
     }
+
     #info-div, #festivities-div, #competition-div {
         width: 75%;
         margin-top: 30px;
     }
+
     #info-div {
         height: 400px;
     }
+
     #festivities-div, #competition-div {
         height: 400px;
     }
+
     #competition-div {
         margin-bottom: 30px;
     }
+
     #find-us {
         margin: 0 auto;
     }
+
     #social-div-container {
         display: flex;
         align-items: center;
         flex-direction: column;
         width: 25%;
-        padding-right: 0;
+        padding-right: 15px;
     }
+
     #follow-us {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
         padding-bottom: 0.5em;
     }
+
     #social-media {
         display: flex;
         justify-content: space-evenly;
         width: 100%;
     }
+
     #social-media > li {
         padding-left: 0;
     }
+
     #contact-info-details {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
+
     #address-details {
         text-align: left;
     }
+
     #image-slogan {
         font-size: 95%;
         width: 190px;
@@ -653,12 +676,15 @@ footer {
         padding: 5px;
         border: 2px solid #FFFAFA;
     }
+
     .footer-text {
         font-size: 85%;
     }
+
     #info-plus-pathway-section {
         height: 1500px;
     }
+
     #festivities-div, #competition-div {
         height: 450px;
     }
@@ -686,6 +712,7 @@ footer {
     .menu a {
         font-size: 80%;
     }
+
     #image-slogan {
         font-size: 90%;
         width: 180px;
@@ -693,6 +720,7 @@ footer {
         padding: 5px;
         border: 2px solid #FFFAFA;
     }
+
     #dates {
         font-size: 100%;
         letter-spacing: 3px;
@@ -718,15 +746,58 @@ footer {
     
     .grid-text-paragraphs {
         padding-top: 12px;
-        width: 94%;
+        width: 90%;
     }
+
+    #item-one {
+        order: 1;
+    }
+
+    #item-two {
+        order: 2;
+    }
+
+    #item-three {
+        order: 4;
+    }
+
+    #item-four {
+        order: 3;
+    }
+
+    #item-five {
+        order: 5;
+    }
+
+    #item-six {
+        order: 6;
+    }
+
+    #item-seven {
+        order: 8;
+    }
+
+    #item-eight {
+        order: 7;
+    }
+
+    #item-nine {
+        order: 9;
+    }
+
+    #item-ten {
+        order: 10;
+    }
+
 }
 
 /* For medium screens from 600px wide and down */
 @media screen and (max-width: 600px) {
+    
     body {
         font-size: 90%;
     }
+
     #image-slogan {
         font-size: 90%;
         width: 175px;
@@ -734,9 +805,11 @@ footer {
         padding: 5px;
         border: 2px solid #FFFAFA;
     }
+
     .toggle-button {
         display: flex;
     }
+
    .menu {
         flex-direction: column;
         width: 100%;
@@ -744,19 +817,23 @@ footer {
         display: none;
         background-color: #FFFAFA;
     }
+
    .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
+
    .menu li {
         width: 100%;
         margin-bottom: 5px
     }
+
    .menu a {
         width: 100%;
         padding: 0;
         color: #1B612B;
     }
+
     .menu.active {
         display: flex;
     }
@@ -765,19 +842,24 @@ footer {
         height: 100px;
         margin: 0;
     }
+
     #logo {
         height: 100px;
     }
+
     .menu a.active {
         border-bottom: none;
     }
+
     .menu li:hover {
         background-color: #1B612B;
     }
+
     .menu a:hover {
         border-bottom: none;
         color: #FFFAFA;
     }
+
     .menu li a {
         display: block;
     }
@@ -785,12 +867,16 @@ footer {
 
 /* For small screens from 525px wide and down */
 @media screen and (max-width: 525px) {
+    
+    /* Index page media queries */
+
     footer {
         height: 180px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
+
     #contact-info-container {
         display: flex;
         justify-content: flex-start;
@@ -799,21 +885,25 @@ footer {
         align-items: center;
         box-sizing: border-box;
     }
+
     #contact-info-header {
         display: flex;
         text-align: start;
         padding-top: 10px;
         width: 100%;
     }
+
     #contact-info-details {
         display: flex;
         flex-direction: column;
         width: 100%;
         justify-content: flex-start;
     }
+
     #address-details {
         text-align: left;
     }
+
     #copyright-container {
         display: flex;
         justify-content: flex-start;
@@ -824,9 +914,11 @@ footer {
         box-sizing: border-box;
         order: 2;
     }
+
     #copyright-container br {
         display: none;
     }
+
     #social-div-container {
         display: flex;
         align-items: center;
@@ -837,25 +929,50 @@ footer {
         order: 3;
         box-sizing: border-box;
     }
+
     #social-media {
         display: flex;
         justify-content: space-evenly;
         width: 40%;
         padding-bottom: 0.5em;
     }
+
     #follow-us{
         display: flex;
         justify-content: flex-start;
         width: 30%;
     }
+
     #info-div, #festivities-div, #competition-div {
         width: 96%;
         margin-top: 20px;
     }
+    
+    /* Festivities page media queries */
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(10, 425px);
+        grid-gap: 10px;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #FFFAFA;
+    }
+
+    .grid-text-paragraphs {
+        padding-top: 12px;
+        width: 92%;
+    }
+
 }
 
 /* For x-small screens from 410px wide and down */
 @media screen and (max-width: 410px) {
+    
+    /* Index page media queries */
+
     #image-slogan {
         font-size: 70%;
         width: 145px;
@@ -863,49 +980,89 @@ footer {
         padding: 5px;
         border: 2px solid #FFFAFA;
     }
+
     .navbar .logo {
         height: 85px;
     }
+
     #logo {
         height: 85px;
         width: 90%;
         margin-left: 0;
     }
+
     .toggle-button {
         top: 25px;
         height: 30px;
     }
+
     .menu li a {
         font-size: 70%;
     }
+
     #info-plus-pathway-section {
         height: 1650px;
     }
+
     #info-div {
         height: 450px;
     }
+
     #dates {
         width: 100%;
         margin-left: 0;  
     }
+
     #festivities-div, #competition-div {
         height: 520px;
     }
+
+    /* Festivities page media queries */
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(10, 460px);
+        grid-gap: 10px;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #FFFAFA;
+    }
+
 }
 
 /* For xx-small screens from 350px wide and down */
 @media screen and (max-width: 350px) {
+    
     #info-div {
         height: 500px;
     }
+
     .pathway-paragraph {
         margin-left: 25px;
         margin-right: 25px;
     }
+
     #festivities-div, #competition-div {
         height: 540px;
     }
+
     #info-plus-pathway-section {
         height: 1680px;
     }
+
+    /* Festivities page media queries */
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(10, 510px);
+        grid-gap: 10px;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #FFFAFA;
+}
+
 }
