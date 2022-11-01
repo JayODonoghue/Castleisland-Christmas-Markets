@@ -472,6 +472,82 @@ footer {
     position: relative;
 }
 
+/* Competition page */
+
+/* Form section */
+
+.form-section {
+    height: 1000px;
+    background: url('../images/lapland-g431492e63_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    clear: left;
+}
+
+.competition-form {
+    color: #FFFAFA;
+    background-color: rgba(128, 128, 128, 0.7);
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    margin: 150px 10% 0 0;
+    border-radius: 15px;
+}
+
+.competition-form h2 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.competition-form p {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-input{
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFAFA;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #FFFAFA;
+    border-radius: 2px;
+}
+
+#question {
+    font-size: 120%;
+}
+
+.radio-buttons {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.terms {
+    padding-bottom: 15px;
+}
+
+.enter-button {
+    margin-top: 20px;
+    border-radius: 6px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #E11C21;
+    color: #FFFAFA;
+    display: block;
+    margin: 0 auto;
+}
+
+.enter-button:hover {
+    background-color: #FFFAFA;
+    color: #E11C21;
+}
+
 /* Media Queries */
 
 /* For xx-large screens from 1660px wide and down */
