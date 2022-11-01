@@ -561,6 +561,20 @@ footer {
     footer {
         height: 150px;
     }
+
+    /* Festivities page media queries */
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, 400px);
+        grid-gap: 10px;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #FFFAFA;
+    }
+
 }
 
 /* For x-large screens from 1420px wide and down */
@@ -590,7 +604,7 @@ footer {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, 400px);
+        grid-template-rows: repeat(5, 415px);
         grid-gap: 10px;
         box-sizing: border-box;
         padding-top: 10px;
@@ -731,7 +745,7 @@ footer {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, 470px);
+        grid-template-rows: repeat(5, 495px);
         grid-gap: 10px;
         box-sizing: border-box;
         padding-top: 10px;
@@ -771,7 +785,7 @@ footer {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, 545px);
+        grid-template-rows: repeat(5, 605px);
         grid-gap: 10px;
         box-sizing: border-box;
         padding-top: 10px;
@@ -1030,7 +1044,7 @@ footer {
     .grid-container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: repeat(10, 425px);
+        grid-template-rows: repeat(10, 430px);
         grid-gap: 10px;
         box-sizing: border-box;
         padding-top: 10px;
@@ -1106,7 +1120,7 @@ footer {
     .grid-container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: repeat(10, 460px);
+        grid-template-rows: repeat(10, 495px);
         grid-gap: 10px;
         box-sizing: border-box;
         padding-top: 10px;
@@ -1141,7 +1155,7 @@ footer {
     .grid-container {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: repeat(10, 510px);
+        grid-template-rows: repeat(10, 555px);
         grid-gap: 10px;
         box-sizing: border-box;
         padding-top: 10px;
