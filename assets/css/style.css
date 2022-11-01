@@ -1043,6 +1043,12 @@ footer {
         width: 92%;
     }
 
+    /* Competition page media queries */
+
+    .form-section {
+        height: 1100px;
+    }
+
 }
 
 /* For x-small screens from 410px wide and down */
