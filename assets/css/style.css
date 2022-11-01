@@ -486,7 +486,7 @@ footer {
 
 .competition-form {
     color: #FFFAFA;
-    background-color: rgba(128, 128, 128, 0.7);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     left: 10%;
     padding: 30px;
@@ -522,17 +522,16 @@ footer {
 
 .radio-buttons {
     font-family: 'Montserrat', sans-serif;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 15px;
+    padding-bottom: 35px;
+    width: 100%;
 }
 
 .terms {
-    padding-bottom: 15px;
+    margin-bottom: 35px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .enter-button {
-    margin-top: 20px;
     border-radius: 6px;
     padding: 15px 32px 15px 32px;
     text-align: center;
