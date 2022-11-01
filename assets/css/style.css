@@ -1060,11 +1060,12 @@ footer {
 
     .navbar .logo {
         height: 85px;
+        width: 45%;
     }
 
     #logo {
         height: 85px;
-        width: 90%;
+        width: 100%;
         margin-left: 0;
     }
 
