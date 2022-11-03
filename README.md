@@ -6,7 +6,7 @@ Castleisland Christmas Markets is a Project Portfolio 1 creation for the Code In
 
  <br/> 
 
-![Castleisland Christmas Markets Website on vaious devices](assets/images/amiresponsive-image.png)
+![Castleisland Christmas Markets Website on vaious devices](assets/images/readme-images/amiresponsive-image.png)
 
 [View Castleisland Chritmas Markets live website on Github pages here](https://jayodonoghue.github.io/Castleisland-Christmas-Markets/)
 
@@ -53,3 +53,28 @@ Castleisland Christmas Markets is a Project Portfolio 1 creation for the Code In
 * To provide a way for visitors to get in contact.
 * To provide a website that is intuitive.
 * To promote the Castleisland Christmas Markets.
+
+<br/>
+
+---
+
+## Design
+
+<br/>
+
+### Colour Scheme
+
+![Castleisland Christmas Market Colour Palette](assets/images/readme-images/coolors-palette.png)
+
+<br/>
+
+The colours used in the website were based off the colours used in the logo. The colour palette was then created by using the [Coolors](https://coolors.co/) website.
+
+<br/>
+
+### Typography
+
+The following two fonts were picked as they complimented each other.
+
+ * Lora is used for the headers on the site. This is a serif font.
+ * Montserrit is used for the remainder of the text areas. This is  sans-serif font.
