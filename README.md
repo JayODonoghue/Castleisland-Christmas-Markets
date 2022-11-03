@@ -74,7 +74,28 @@ The colours used in the website were based off the colours used in the logo. The
 
 ### Typography
 
+<br/>
+
 The following two fonts were picked as they complimented each other.
 
  * Lora is used for the headers on the site. This is a serif font.
- * Montserrit is used for the remainder of the text areas. This is  sans-serif font.
+ * Montserrat is used for the remainder of the text areas. This is  sans-serif font.
+
+<br/>
+
+ ### Imagery
+
+<br/>
+
+ All images are taken from image sharing websites such as pxhere, pexels and unspla. These are correctly credited in the credits section.
+
+<br/>
+
+### Wireframes
+
+<br/>
+
+Wireframes were created for mobile and desktop.
+
+<br/>
+![Home Page Wireframes](assets/images/readme-images/home-page-wireframes.png)
