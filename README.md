@@ -98,4 +98,9 @@ The following two fonts were picked as they complimented each other.
 Wireframes were created for mobile and desktop.
 
 <br/>
+
+Home Page
 ![Home Page Wireframes](assets/images/readme-images/home-page-wireframes.png)
+
+<br/>
+
