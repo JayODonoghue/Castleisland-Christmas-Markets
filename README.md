@@ -104,3 +104,50 @@ Home Page
 
 <br/>
 
+Festivities Page
+![Festivities Page Wireframes](assets/images/readme-images/festivities-page-wireframes.png)
+
+<br/>
+
+Competition Page
+![Competition Page Wireframes](assets/images/readme-images/competition-page-wireframes.png)
+
+<br/>
+
+### Features
+
+<br/>
+
+The website is made up of three pages. All of which are accessible from the navigation menu. 
+
+<br/>
+
+* All pages have:
+  * A responsive navigation bar at the top of the page. This allows users to access every aspect of the site. The left of the navigation bar contains a logo which has the text 'Castleisland Christmas Markets'. This logo also acts as a link to the home page once clicked. To the right of the navigation bar there are links to the websites pages (Home, Festivities & Competition). Once the screen size is 600px or under the links to the right of the navigation bar are changed to a hamburger style menu. This is done to prmote a good user experience in providing an uncluttered look to the navigation bar on smaller screens. 
+  * A footer which contains contact information, a copyright text which also states the creator of the page and also social media links. These links are shown as icons to give a cleaner more modern look.
+
+<br/>
+
+* The Home Page has:  
+  * A Hero image section. This image is of shimmering crystals and candles. Image used to implement a festive tone.
+  * An Information and Pathway Section. This section comprises of three subsections (div containers). The first div includes dates, times and a brief introduction. The second div contains what activties are available. The third div informs you of the competition.
+  * A map section. The map section provides a google maps iframe which will show exactly where the markets take place.
+
+<br>
+ 
+ * The Festivities Page has:  
+   * A festivities grid section. This section is broken down into ten subsections. There are five div containers with text, each describing what different activities and experiences are available at the markets. There are equally five other div containers that are images in relation the text div adjacent (in desktop version) or above it (mobile version).
+
+<br/>
+
+* The Competition Page:  
+  * A background image. This image is of a reindeer in Lapland. It is used as a decorative image to convey a message of what to expect if won.
+  * A form. This is used to allow the visitors to enter their details and enter the competition. It is made up of name, email address, phone number, radio buttons for the possible answers, a checkbox to agree to the terms and conditions and an enter competition submit button. All input area must be filled in order to enter if not a message appears on screen to instruct users to complete areas that have been left blank.
+
+<br/>
+
+* Future Implementations:
+  * To create a gallery page. This would include images of some of the products that are available in the markets, people partaking in activities available in the markets and just of the market in gerneral. These would help first time visitors have a greater knowledge of what to expect if coming to see the markets.
+  * A terms and conditions link to a seperate page. This would have the full details of the terms and conditions involved in the competition involved with entering the competition.
+  * A thank you for entering page. Once the submit button is clicked the user is brought to a thank you for entering page and informs them of when the winner will be notified.
+  * Use javascript to return to top function on mobile devices.
