@@ -99,6 +99,7 @@ body {
     background: url('../images/hero-image.webp') no-repeat center center;
     height: 400px; 
     background-size: cover;
+    background-color: #a24936;
 }
 
 #main-image-outer {
@@ -188,11 +189,13 @@ h3 i {
 #festivities-div {
     background: url('../images/castleisland-christmas-lights-and-tree-image.jpg') no-repeat center center;
     background-size: cover;
+    background-color: #a24936;
 }
 
 #competition-div {
     background: url('../images/northern-lights-image.jpg') no-repeat center center;
     background-size: cover;
+    background-color: #a24936;
 }
 
 #festivities-div , #competition-div {
