@@ -54,6 +54,14 @@ Castleisland Christmas Markets is a Project Portfolio 1 creation for the Code In
   * [Local Deployment](#local-deployment)
     * [How to Clone](#how-to-clone)
 
+<br/>
+
+* [Credits](#credits)
+  * [Layout](#layout)
+  * [Content](#content)
+  * [Code](#code)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
 
 ---
 
@@ -433,8 +441,16 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 <br/>
 
-
 ### Media 
-* The hero image on the inidex page is downloaded from the pxhere website with full permission.
-The 
+* The hero image on the index page is downloaded from the pxhere website with full permission.
+* The northern lights image and the christmas tree with lights image on the index page are from the pexels website with full permission.
+* The santa image, the decorations image and the cookie decorating image on the festivities page are all from the pxhere website with full permission.
+* The games image and the food image on the festivities page are from the pexels website with full permission.
+* The Lapland image on the competition page is downloaded from the unsplash website with full permission.
+
+### Acknowledgements
+* I would like to thank my mentor Mitko in guiding me in the right direction and helping whenever I had a query.
+* I would like to thank the people who reviewed my code in perr-code-review on Slack.
+* I would like to thank the cohort lead and the cohort Facilitator on checking up and keeping everyone on schedule.
+
 
