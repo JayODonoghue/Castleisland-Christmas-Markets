@@ -11,7 +11,53 @@ Castleisland Christmas Markets is a Project Portfolio 1 creation for the Code In
 [View Castleisland Chritmas Markets live website on Github pages here](https://jayodonoghue.github.io/Castleisland-Christmas-Markets/)
 
 ---
-  <br/> 
+
+<br/>
+
+## CONTENTS 
+
+* [User Experience (UX)](#user-experience-ux)
+  * [Key information for the site](#key-information-for-the-site)
+  * [User Stories](#user-stories)
+
+<br/>
+
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+  * [Features](#features)
+  * [Accessibility](#accessibility)
+
+<br/>
+
+* [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used)
+    * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+<br/>
+
+* [Testing](#testing)
+    * [HTML Validator](#html-validator)
+    * [CSS Validator](#css-validator)
+    * [Lighthouse](#lighthouse)
+    * [Solved Bugs](#solved-bugs)
+    * [Known Bugs](#known-bugs)
+    * [Full Testing](#full-testing)
+    * [Testing User Stories](#testing-users-stories)
+
+<br/>
+
+* [Deployment & Local Deployment](#deployment--local-deployment)
+  * [Deployment](#deployment)
+  * [Local Deployment](#local-deployment)
+    * [How to Clone](#how-to-clone)
+
+
+---
+
+<br/> 
 
 ## User Experience (UX)  
 
@@ -87,7 +133,7 @@ The following two fonts were picked as they complimented each other.
 
 <br/>
 
- All images are taken from image sharing websites such as pxhere, pexels and unspla. These are correctly credited in the credits section.
+ All images are taken from image sharing websites such as pxhere, pexels and unsplash. These are correctly credited in the credits section.
 
 <br/>
 
@@ -289,6 +335,7 @@ I have no unresolved bugs.
 * The site was fully tested using a range of devices (DELL Large Screen Monitor, ASUS Laptop, iPhone 13, iPhone 7, Huawei P40 and Samsung S8)
 * The site was fully tested using Chrom Dev Tools to test the responsiveness on different screen sizes.
 * Every link in the website was fully tested on all three pages. Each link worked as expected. All internal links leading to the relevant page and all external links leading to a new tab.
+* The hamburger menu was tested ensuring that once activated it displayed the correct way and provided access to the correct links.
 * The competition form was fully tested. All input fields need to be filled out in order to successfully enter the competition. If any information is left out the user is directed to complete any missing data. One radio button must be selected to provide an answer and the terms and conditions must be accepted to proceed.
 
 <br/>
@@ -362,4 +409,32 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 <br/>
 
 --- 
+
+<br/>
+
+## Credits
+
+### Layout
+* The layout of the website was established by Jay O'Donoghue. 
+* The layout of this readme file is based off a previous students readme file - [Kera Cudmore - Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club)
+
+<br/>
+
+### Content 
+* The vast majority of the content was written by Jay O'Donoghue. Little snippets of text have been used from the Killarney Christmas Market page as referenced in the index.html file.
+
+<br/>
+
+### Code
+* I followed a tutorial by [Web Dev Simplified](https://www.youtube.com/watch?v=At4B7A4GOPg&t=424s) to implement a responsive navbar for smaller screens in my project.
+* I followed a tutorial by [Web Dev Simplified](https://www.youtube.com/watch?v=9zBsdzdE4sM&t=7s) to implement a CSS Grid in my project.
+* I was influenced by the Love Running project by Code Institiute for the form section on the Competition Page. I used and altered the radio button section for my project.
+* I added code from a thread in Stack Overflow to resolve the favicon warning that was showing on Chrome Dev Tools.
+
+<br/>
+
+
+### Media 
+* The hero image on the inidex page is downloaded from the pxhere website with full permission.
+The 
 
