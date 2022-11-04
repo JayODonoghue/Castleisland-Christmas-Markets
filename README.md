@@ -233,3 +233,133 @@ I have achieved a high level of accessibility by using the following:
 <br/>
 
 The HTML Validator was used on all three pages of the website.
+
+<br/>
+
+![HTML Validator Report](assets/images/readme-images/html-validator.png)
+
+<br/>
+
+### CSS Validator
+
+<br/>
+
+The CSS Validator was used on all three pages of the website.
+
+<br/>
+
+![CSS Validator Report](assets/images/readme-images/css-validator.png)
+
+<br/>
+
+### Lighthouse
+
+I used the Lighthouse feature in the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+
+<br/>
+
+![Lighthouse Results](assets/images/readme-images/lighthouse-results-desktop.png)
+
+<br/>
+
+### Solved Bugs
+
+<br/>
+
+1. The images were slowing down the load time of the website. I resolved this by compressing the images and converting them to webp format.
+2. The Font Awesome link at the bottom of the page was also delaying load time. Chrome Dev Tools suggested to use 'rel=preconnect' to speed this up. This did increase performance.
+3. When trying to create the hamburger menu, the toggle button using javascript was not working. However once I put the link to the JavaScript under the footer like the Font Awesome link it resolved the issue.
+4. After running through the project with my mentor he noted that the images on the CSS grid are too streched on the full screen desktop. The solution to this was to give the grid container a max-width of 90%.
+5. The hero image on the index page was looking very stretched and cut off in different screen sies. Once the background-size: cover was used this was resolved.
+6. While creating the form for the competition page I had put the label before the input for the radio buttons and the checkbox to match the name, email and number inputs above. This reulted in the buttons and checkboxes to be placed after the text. This was resolved by changing the order and putting the input then the label.
+7. A 'Find out more' button was created with a Button element with a link inside it. However HTML validator issued a warning informing me that an a element can not be nested inside as button element. I resolved this by replacing the button with a div and fashioned to be like a button.
+8. The Chrome Dev Tools also showed a 404 error in relation to the favicon. I had not created a favicon so searched the internet for an answer. The site Stack Overflow had a thread that led me to including the following to the top of the page under the stylesheet - 'link rel="shortcut icon" href="#"'. This resolved the error.
+
+<br/>
+
+### Known Bugs
+
+<br/>
+
+I have no unresolved bugs.
+
+### Full Testing
+
+* The site was fully tested using a range of browsers (Google Chrome, Safari, Firefox).
+* The site was fully tested using a range of devices (DELL Large Screen Monitor, ASUS Laptop, iPhone 13, iPhone 7, Huawei P40 and Samsung S8)
+* The site was fully tested using Chrom Dev Tools to test the responsiveness on different screen sizes.
+* Every link in the website was fully tested on all three pages. Each link worked as expected. All internal links leading to the relevant page and all external links leading to a new tab.
+* The competition form was fully tested. All input fields need to be filled out in order to successfully enter the competition. If any information is left out the user is directed to complete any missing data. One radio button must be selected to provide an answer and the terms and conditions must be accepted to proceed.
+
+<br/>
+
+### Testing Users Stories
+
+<br/>
+
+#### First Time Visitors Goals
+* I want the site to provide information on the activities and availability of services from the markets.
+  * The Festivities Page will provide the answers to all the questions in terms of what activities we provide and what stalls to expect venturing to the markets. The Information section in the index page also gives the dates and times the markets are open.
+* I want to be able to be easily navigate through this site.
+  * The navigation bar is extermely accessible and appears on all pages across the website. The logo is also there to provide quick access back to the home page. There are also 'Find out more' pathways to the two other pages on the index page.
+* I want to be able to access their social media links.
+  * The social media icons in the footer provide direct access to the social media accounts.
+* I want to be able to enter the competition.
+  * The form on the competition page allows the user to enter the competition as long as all the inputs are filled out. There are pathways both in the navigation bar to the competition page and also and link in the competition pathway in the index page.
+
+<br/>
+
+#### Returning Visitor Goals
+
+* I want to be able to get in contact with the markets for any queries that I have.
+  * The 'GET IN TOUCH' section in the footer provides the contact information with various options to get in contact.
+* I want to know where the markets are taking place.
+  * The map using the iframe pin points exactly where the markets are taking place which relieves the user of stress trying to locate the markets.
+
+<br/>
+
+#### Frequent Visitor Goals
+
+* I want to be able to come back every year with updated dates and times available.
+  * The page will be updated with new times and dates annually. The information will always be present on the index page providing the user with the relevant data instantly.
+
+  <br/>
+
+  ---
+
+  ## Deployment & Local Deployment
+
+<br/>
+
+  ### Deployment
+
+<br/>
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in/Sign Up to Github.
+2. Find the Castleisland-Christmas-Markets repository.
+3. Go to Settings > Pages.
+5. In the Source section, choose Main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+<br/>
+
+### Local Deployment
+
+<br/>
+
+#### How to Clone
+
+<br/>
+
+1. Log in/Sign Up to Github.
+2. Find the Castleisland-Christmas-Markets repository.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+<br/>
+
+--- 
+
